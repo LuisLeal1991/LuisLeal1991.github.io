@@ -1,5 +1,7 @@
 {% if topic.web_url %}
-  <a href="{{ topic.web_url }}" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
+  <a
+    style="background-color: #00aeef !important"
+    href="{{ topic.web_url }}" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
     {% if topic.image_url %}
       <img src="{{ topic.image_url }}" style="width: 100%; background: contain" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
     {% else %}
@@ -29,7 +31,7 @@
         #
       </div>
     {% endif %}
-    <p class="f3 lh-condensed text-center mb-0 mt-1">{{ topic.name }}</p>
+    <p class="f3 lh-condensed text-center mb-0 mt-1" style="color: #fff!important;">{{ topic.name }}</p>
     {% if topic.description %}
       <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
     {% endif %}
