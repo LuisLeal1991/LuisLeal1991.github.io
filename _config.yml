@@ -54,6 +54,8 @@ topics:
   - name: aplicación comercial de servicios
 
   - name: plataforma de ventas en línea para artesanos
+    web_url: https://www.fhamy.mx/
+    image_url: https://www.fhamy.mx/img/logo.png
 
   - name: Sistema administrativo de control de dispositivos de red
 
