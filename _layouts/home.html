@@ -8,9 +8,7 @@
       {{ content }}
     </div>
 
-    <div class="my-6">
-      {% include projects.html %}
-    </div>
+
 
     {% if site.topics %}
       <div class="my-6">
@@ -23,6 +21,11 @@
         {% include thoughts.html %}
       </div>
     {% endunless %}
+
+    <div class="my-6">
+      {% include projects.html %}
+    </div>
+
   </div>
 {% else %}
   <div class="d-md-flex height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
