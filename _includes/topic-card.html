@@ -10,13 +10,15 @@
         #
       </div>
     {% endif %}
-    <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">{{ topic.name }}</p>
+    <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1" style="color: #fff!important;">{{ topic.name }}</p>
     {% if topic.description %}
       <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
     {% endif %}
   </a>
 {% else %}
-  <div class="github-component position-relative height-full text-center border border-gray-light rounded-1 bg-white p-5">
+  <div
+    style="background-color: #00aeef !important"
+    class="github-component position-relative height-full text-center border border-gray-light rounded-1 bg-white p-5">
     {% if topic.image_url %}
       <img src="{{ topic.image_url }}" style="width: 100%; background: contain" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
     {% else %}
