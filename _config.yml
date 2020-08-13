@@ -41,18 +41,27 @@ projects:
 
 topics:
   - name: Sistema de control escolar
+    image_url: https://www.vippng.com/png/detail/493-4931936_code-learn-to-code-icon.png
+
   
   - name: Sistema de control de empleados
+    image_url: https://www.vippng.com/png/detail/493-4931936_code-learn-to-code-icon.png
+
 
   - name: Sistema de autofinanciamiento
-    # web_url: https://github.com/topics/css
+    image_url: https://www.vippng.com/png/detail/493-4931936_code-learn-to-code-icon.png
+
+  # web_url: https://github.com/topics/css
     # image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   - name: Sistema de cartera de clientes
+    image_url: https://www.vippng.com/png/detail/493-4931936_code-learn-to-code-icon.png
 
   - name: Sistema de administracion de pagos
+    image_url: https://www.vippng.com/png/detail/493-4931936_code-learn-to-code-icon.png
 
   - name: Plataforma para subastas de producto marítimo
+    image_url: https://www.vippng.com/png/detail/493-4931936_code-learn-to-code-icon.png
     
 
 
@@ -71,6 +80,7 @@ topics:
 
 
   - name: Sistema administrativo de formularios de programas escolares
+    image_url: https://www.vippng.com/png/detail/493-4931936_code-learn-to-code-icon.png
     
   # - name: CSS
   #   web_url: https://github.com/topics/css
